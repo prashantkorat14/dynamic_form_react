@@ -1,0 +1,74 @@
+{
+  "permit_details": {
+    "id": "permit_details",
+    "title": "Permit Details",
+    "fields": [
+      {
+        "type": "text",
+        "labelName": "Username",
+        "id": "username",
+        "name": "username",
+        "value": "",
+        "placeholder": "enter username"
+      },
+      {
+        "type": "text",
+        "labelName": "Username asd",
+        "id": "username_asd",
+        "name": "username_asd",
+        "value": "",
+        "placeholder": "enter username asd"
+      },
+      {
+        "type": "password",
+        "labelName": "Password",
+        "id": "password",
+        "name": "password",
+        "value": "",
+        "placeholder": "enter password"
+      },
+      {
+        "type": "textarea",
+        "labelName": "Textarea",
+        "id": "textarea",
+        "name": "textarea",
+        "value": "",
+        "placeholder": "enter textarea details"
+      },
+      {
+        "type": "select",
+        "labelName": "Select Option",
+        "id": "select_opt",
+        "name": "select_opt",
+        "options": [
+          { "value": 1, "label": "Option A" },
+          { "value": 2, "label": "Option B" },
+          { "value": 3, "label": "Option C" }
+        ]
+      },
+      {
+        "type": "radio",
+        "labelName": "Select radio",
+        "id": "radio_opt",
+        "name": "radio_opt",
+        "options": [
+          { "value": 1, "label": "radio Option A" },
+          { "value": 2, "label": "radio Option B" },
+          { "value": 3, "label": "radio Option C" }
+        ]
+      },
+      {
+        "type": "checkbox",
+        "labelName": "Select checkbox",
+        "id": "checkbox_opt",
+        "name": "checkbox_opt",
+        "options": [
+          { "val": 1, "label": "checkbox Option A" },
+          { "val": 2, "label": "checkbox Option B" },
+          { "val": 3, "label": "checkbox Option C" }
+        ]
+      }
+    ],
+    "submit_label": "save"
+  }
+}
